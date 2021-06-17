@@ -1,0 +1,31 @@
+body {
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(https://cdn.statically.io/img/images2.alphacoders.com/984/984560.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.MuiPaper-root {
+  background-color: transparent!important;
+}
+
+label,input {
+  color: white!important;
+
+}
+
+.MuiInput-underline:before,.MuiInput-underline:after {
+  border-bottom: 1px solid white!important;
+
+}
+
